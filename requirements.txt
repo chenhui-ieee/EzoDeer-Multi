@@ -1,0 +1,13 @@
+numpy>=1.23
+Pillow>=9
+pycocotools>=2.0.7
+opencv-python>=4.8
+PyYAML>=6
+matplotlib>=3.6
+ultralytics==8.4.60
+segmentation-models-pytorch==0.5.0
+timm==1.0.22
+huggingface-hub==0.36.0
+safetensors==0.6.2
+# Install a matching CUDA-enabled PyTorch/torchvision pair separately.
+# Reference experiment: torch 2.11.0+cu128; torchvision 0.26.0+cu128.
